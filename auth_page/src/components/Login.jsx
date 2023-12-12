@@ -5,7 +5,7 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import "./style.css"; // Make sure to include your styling
+import "./style.css"; 
 import SideImg from "../assets/th.jpg";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
@@ -60,7 +60,7 @@ const Login = () => {
             Login
           </Button>
 
-          {/* Link to the registration page */}
+          
           <Typography variant="body2">
             Already a user? <Link to="/register">Register</Link>
           </Typography>
